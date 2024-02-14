@@ -1,0 +1,78 @@
+{
+	"TradingSession": {
+		"title": "Trading Session",
+		"alert": {
+			"start": {
+				"success": "Session started successfully",
+				"error": "Failed to start session"
+			},
+			"stop": {
+				"success": "Session stopped successfully",
+				"error": "Failed to stop session"
+			}
+		},
+		"details": {
+			"sessionId": "Session ID",
+			"accountId": "Account ID",
+			"wolps": "w/o Loss Point Start",
+			"wolpd": "w/o Loss Point Direction",
+			"direction": {
+				"up": "Up",
+				"down": "Down",
+				"undefined": "Awaiting"
+			},
+			"stpp": "Shift Take Profit Price",
+			"loading": "Loading...",
+			"status": {
+				"label": "Status",
+				"CREATED": "CREATED",
+				"RUNNING": "RUNNING",
+				"COMPLETED": "COMPLETED"
+			}
+		},
+		"buttons": {
+			"start": "Start",
+			"stop": "Stop"
+		},
+		"dialog": {
+			"title": "After Executed Orders",
+			"close": "Close"
+		},
+		"table": {
+			"type": "Type",
+			"side": "Side",
+			"positionSide": "Position Side",
+			"marketPrice": "Market Price",
+			"status":"Status",
+			"amount": "Amount",
+			"error": "An error occured. Refresh the page or check the console for more details",
+			"notFound": "No orders found",
+			"TakeProfitNotFound": "No Take-Profit orders found",
+			"title": "Orders",
+			"TakeProfitTitle": "Take-Profit Orders",
+			"time":"Time"
+		}
+	},
+	"SessionStatistic":{
+		"title":"Session Statistic",
+		"InitialCard":{
+			"title":"Initial Balance",
+			"amount":"Amount",
+			"time":"Started at",
+			"errorTitle":"Session Not Started",
+			"errorBody":"Session not found"
+		},
+		"ClosingCard":{
+			"title":"Closing Balance",
+			"amount":"Amount",
+			"time":"Closed at",
+			"errorTitle":"Session Not Closed",
+			"errorBody":"Closing not found",
+			"error404":"The requested session is not registered",
+			"error402":"Session not started and does not have initial balance yet"
+			
+		},
+		"OrderList":"Order List",
+		"FilledOrderList":"Filled Orders"
+	}
+}
